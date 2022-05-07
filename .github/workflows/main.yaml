@@ -18,6 +18,7 @@ jobs:
       OPENWEATHERMAP_KEY: ${{ secrets.openweathermap_api }}
     steps:
     # https://github.com/marketplace/actions/setup-java-jdk
+    #test
     - name: Setup JDK 17 
       uses: actions/setup-java@v3
       with:
